@@ -39,10 +39,10 @@
             //                         | LGUI | LWR |  SPACE  | RSE | FUNC |
 
             bindings = <
-&kp ESCAPE  &kp Q        &kp W       &kp E        &kp R        &kp T                   &kp Y  &kp U        &kp I            &kp O                &kp P           &kp BSPC
-&kp TAB     &kp A        &kp S       &kp D        &kp F        &kp G                   &kp H  &kp J        &kp K            &kp L                &kp UP_ARROW    &kp RET
-&kp LSHFT   &hm LCTRL Z  &hm LALT X  &hm LSHFT C  &hm LCTRL V  &kp B                   &kp N  &hm RCTRL M  &hm RSHFT COMMA  &hm RALT LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                     &kp LGUI     &mo LOWER           &lt NAVIG SPACE         &mo RAISE    &mo FUNCT
+&kp ESCAPE  &kp Q        &kp W       &kp E             &kp R         &kp T               &kp Y  &kp U      &kp I          &kp O           &kp P           &kp BSPC
+&kp TAB     &kp A        &kp S       &kp D             &kp F         &kp G               &kp H  &kp J      &kp K          &kp L           &kp UP_ARROW    &kp RET
+&kp LSHFT   &hm LCTRL Z  &hm LALT X  &hm LSHFT C       &hm LCTRL V   &kp B               &kp N  &kp M      &kp COMMA      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                                     &kp LEFT_CONTROL  &kp LEFT_GUI         &lt 5 SPACE         &mo RAISE  &kp RIGHT_ALT
             >;
         };
 
@@ -69,9 +69,9 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp DEL  &kp N1  &kp N2    &kp N3  &kp N4     &kp N5              &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DEL
-&trans   &trans  &trans    &trans  &trans     &trans              &kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH
-&trans   &trans  &kp LGUI  &trans  &trans     &kp CLCK            &kp PSCRN  &trans     &trans     &trans    &trans    &trans
+&kp DEL  &kp N1  &kp N2    &kp N3  &kp N4     &kp N5              &kp N6     &kp N7     &kp N8      &kp N9    &kp N0    &kp DEL
+&trans   &trans  &trans    &trans  &trans     &trans              &kp GRAVE  &kp MINUS  &kp EQUAL   &kp LBKT  &kp RBKT  &kp BSLH
+&trans   &trans  &kp LGUI  &trans  &trans     &kp CLCK            &kp PSCRN  &trans     &kp PERIOD  &trans    &trans    &trans
                            &trans  &mo ADJST            &kp BSPC             &trans     &trans
             >;
         };
