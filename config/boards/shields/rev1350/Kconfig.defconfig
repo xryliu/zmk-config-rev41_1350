@@ -4,7 +4,7 @@
 if SHIELD_REV1350
 
 config ZMK_KEYBOARD_NAME
-    default "NintendoWireless"
+    default "Wireless Keyboard"
 
 endif # SHIELD_REV1350
 
